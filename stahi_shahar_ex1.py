@@ -179,10 +179,6 @@ class Corpus:
 
 
 def main():
-    """
-    run command example:
-    python stahi_shahar_ex1.py XML_files Wiki_files output.txt
-    """
     print('Program started')
     xml_dir = argv[1]  # directory containing xml files from the BNC corpus (not a zip file)
     # xml_dir = os.path.join(os.getcwd(), 'XML_files')
